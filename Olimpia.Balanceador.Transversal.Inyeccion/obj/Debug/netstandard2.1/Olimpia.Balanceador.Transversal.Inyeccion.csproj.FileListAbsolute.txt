@@ -1,0 +1,9 @@
+C:\Users\PabloEugenio\source\repos\olimpia.infoclima\Olimpia.Balanceador.Transversal.Inyeccion\bin\Debug\netstandard2.1\Olimpia.Balanceador.Transversal.Inyeccion.deps.json
+C:\Users\PabloEugenio\source\repos\olimpia.infoclima\Olimpia.Balanceador.Transversal.Inyeccion\bin\Debug\netstandard2.1\Olimpia.Balanceador.Transversal.Inyeccion.dll
+C:\Users\PabloEugenio\source\repos\olimpia.infoclima\Olimpia.Balanceador.Transversal.Inyeccion\bin\Debug\netstandard2.1\Olimpia.Balanceador.Transversal.Inyeccion.pdb
+C:\Users\PabloEugenio\source\repos\olimpia.infoclima\Olimpia.Balanceador.Transversal.Inyeccion\obj\Debug\netstandard2.1\Olimpia.Balanceador.Transversal.Inyeccion.csprojAssemblyReference.cache
+C:\Users\PabloEugenio\source\repos\olimpia.infoclima\Olimpia.Balanceador.Transversal.Inyeccion\obj\Debug\netstandard2.1\Olimpia.Balanceador.Transversal.Inyeccion.AssemblyInfoInputs.cache
+C:\Users\PabloEugenio\source\repos\olimpia.infoclima\Olimpia.Balanceador.Transversal.Inyeccion\obj\Debug\netstandard2.1\Olimpia.Balanceador.Transversal.Inyeccion.AssemblyInfo.cs
+C:\Users\PabloEugenio\source\repos\olimpia.infoclima\Olimpia.Balanceador.Transversal.Inyeccion\obj\Debug\netstandard2.1\Olimpia.Balanceador.Transversal.Inyeccion.csproj.CoreCompileInputs.cache
+C:\Users\PabloEugenio\source\repos\olimpia.infoclima\Olimpia.Balanceador.Transversal.Inyeccion\obj\Debug\netstandard2.1\Olimpia.Balanceador.Transversal.Inyeccion.dll
+C:\Users\PabloEugenio\source\repos\olimpia.infoclima\Olimpia.Balanceador.Transversal.Inyeccion\obj\Debug\netstandard2.1\Olimpia.Balanceador.Transversal.Inyeccion.pdb

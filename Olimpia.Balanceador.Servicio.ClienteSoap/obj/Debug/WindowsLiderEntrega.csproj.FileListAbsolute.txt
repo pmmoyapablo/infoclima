@@ -1,0 +1,9 @@
+C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\bin\Debug\WindowsLiderEntrega.exe.config
+C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\bin\Debug\WindowsLiderEntrega.exe
+C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\bin\Debug\WindowsLiderEntrega.pdb
+C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\obj\Debug\WindowsLiderEntrega.Form1.resources
+C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\obj\Debug\WindowsLiderEntrega.Properties.Resources.resources
+C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\obj\Debug\WindowsLiderEntrega.csproj.GenerateResource.cache
+C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\obj\Debug\WindowsLiderEntrega.csproj.CoreCompileInputs.cache
+C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\obj\Debug\WindowsLiderEntrega.exe
+C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\obj\Debug\WindowsLiderEntrega.pdb

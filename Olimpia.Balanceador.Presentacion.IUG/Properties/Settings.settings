@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WindowsLiderEntrega.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="urlSOAP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://serviciosdemo.reconoser.com.co:6300/Service.svc</Value>
+    </Setting>
+    <Setting Name="usuario" Type="System.String" Scope="User">
+      <Value Profile="(Default)">usuariop</Value>
+    </Setting>
+    <Setting Name="password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">passwordp</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

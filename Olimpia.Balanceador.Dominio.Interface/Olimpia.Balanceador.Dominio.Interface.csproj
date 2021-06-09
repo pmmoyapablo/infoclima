@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Olimpia.Balanceador.Dominio.Entity\Olimpia.Balanceador.Dominio.Entity.csproj" />
+    <ProjectReference Include="..\Olimpia.Balanceador.Servicio.ClienteSoap\Olimpia.Balanceador.Servicio.ClienteSoap.csproj" />
+  </ItemGroup>
+
+</Project>

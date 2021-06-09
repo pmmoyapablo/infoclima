@@ -1,0 +1,9 @@
+C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\Olimpia.Balanceador.Transversal.Inyeccion\bin\Debug\netstandard2.0\Olimpia.Balanceador.Transversal.Inyeccion.deps.json
+C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\Olimpia.Balanceador.Transversal.Inyeccion\bin\Debug\netstandard2.0\Olimpia.Balanceador.Transversal.Inyeccion.dll
+C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\Olimpia.Balanceador.Transversal.Inyeccion\bin\Debug\netstandard2.0\Olimpia.Balanceador.Transversal.Inyeccion.pdb
+C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\Olimpia.Balanceador.Transversal.Inyeccion\obj\Debug\netstandard2.0\Olimpia.Balanceador.Transversal.Inyeccion.AssemblyInfoInputs.cache
+C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\Olimpia.Balanceador.Transversal.Inyeccion\obj\Debug\netstandard2.0\Olimpia.Balanceador.Transversal.Inyeccion.AssemblyInfo.cs
+C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\Olimpia.Balanceador.Transversal.Inyeccion\obj\Debug\netstandard2.0\Olimpia.Balanceador.Transversal.Inyeccion.csproj.CoreCompileInputs.cache
+C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\Olimpia.Balanceador.Transversal.Inyeccion\obj\Debug\netstandard2.0\Olimpia.Balanceador.Transversal.Inyeccion.dll
+C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\Olimpia.Balanceador.Transversal.Inyeccion\obj\Debug\netstandard2.0\Olimpia.Balanceador.Transversal.Inyeccion.pdb
+C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\Olimpia.Balanceador.Transversal.Inyeccion\obj\Debug\netstandard2.0\Olimpia.Balanceador.Transversal.Inyeccion.csprojAssemblyReference.cache
