@@ -1,0 +1,72 @@
+﻿@model InfoClimaPageWeb.Models.ClimaModel
+
+@{
+    ViewBag.Title = "Eliminar Clima";
+}
+
+<h2>Eliminar Clima</h2>
+
+<h3>Esta seguro de querer eliminar este registro?</h3>
+<div>
+    <h4>Clima a Eliminar</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descripcion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Temperatura)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Temperatura)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Viento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Viento)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Humedad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Humedad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ciudad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ciudad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Fecha)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fecha)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Regresar", "Index")
+        </div>
+    }
+</div>

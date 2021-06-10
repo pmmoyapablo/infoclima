@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="37eda891-0e7f-4fe5-a710-5901413f74fa" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:58590/ServiceClimate.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceClimate.wsdl" MetadataType="Wsdl" ID="7dcb0497-9d09-4db3-bdff-2503def62c47" SourceId="1" SourceUrl="http://localhost:58590/ServiceClimate.svc?wsdl" />
+    <MetadataFile FileName="ServiceClimate.xsd" MetadataType="Schema" ID="4252a29a-9ff6-476a-9e77-8b5f51e1d565" SourceId="1" SourceUrl="http://localhost:58590/ServiceClimate.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServiceClimate1.xsd" MetadataType="Schema" ID="dfbd88b0-420a-47c9-9734-7d508a492814" SourceId="1" SourceUrl="http://localhost:58590/ServiceClimate.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServiceClimate.disco" MetadataType="Disco" ID="fb70b6d6-238f-4d38-b12f-e865a74609dc" SourceId="1" SourceUrl="http://localhost:58590/ServiceClimate.svc?disco" />
+    <MetadataFile FileName="ServiceClimate2.xsd" MetadataType="Schema" ID="f0428b82-82a7-444f-ab3c-731a77deae4b" SourceId="1" SourceUrl="http://localhost:58590/ServiceClimate.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

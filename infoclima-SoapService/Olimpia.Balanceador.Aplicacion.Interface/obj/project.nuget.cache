@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "A3YKxAlZm47evEZXJ4b+HVb8OQ3syl+SQna/RJcr8LTNWG0ESm75SR71toCXgyIz5M1YU3PVhC33z+a1+RzbFQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pmoya\\source\\repos\\infoclima-SoapService\\Olimpia.Balanceador.Aplicacion.Interface\\Olimpia.Balanceador.Aplicacion.Interface.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pmoya\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

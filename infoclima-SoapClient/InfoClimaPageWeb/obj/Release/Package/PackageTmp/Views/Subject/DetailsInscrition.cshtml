@@ -1,0 +1,43 @@
+﻿@model IEnumerable<FrontUniAmericas.Models.CtrlStudioModel>
+
+@{
+    ViewBag.Title = "Estadisticas de la Materia";
+
+    List<double> notasDef = ViewBag.NotasDefs;
+    int i = 0;
+}
+
+<h2>Estadisticas de la Materia @ViewBag.Asignatura</h2>
+
+@if (Model.Count() > 0)
+{
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.alumnoId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nota)
+        </th>
+        <th>
+            Definitiva
+        </th>
+    </tr>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.alumno.Nombres)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nota)
+        </td>
+        <td>
+           @Html.Label(notasDef[i].ToString())
+        </td>
+    </tr>
+}
+
+</table>
+}

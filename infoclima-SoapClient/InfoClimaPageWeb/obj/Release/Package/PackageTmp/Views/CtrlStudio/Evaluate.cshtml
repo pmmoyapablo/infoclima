@@ -1,0 +1,50 @@
+﻿@model FrontUniAmericas.Models.AlumnoModel
+
+@{
+    ViewBag.Title = "Evaluacion Definitiva";
+}
+
+<h2>Evaluacion Definitiva del Alumno</h2>
+
+<div>
+    <h4>Detalles</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombres)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombres)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Apellidos)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Apellidos)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CI)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CI)
+        </dd>
+
+    </dl>
+</div>
+<h4>Materias Evaluadas</h4>
+<b>@ViewBag.MateriasIns</b>
+<br />
+<br />
+<h2>Nota Definitiva</h2>
+<h1>@ViewBag.Definitiva</h1>
+<br />
+<br />
+
+<p>
+    @Html.ActionLink("Salir", "Evaluation")
+</p>

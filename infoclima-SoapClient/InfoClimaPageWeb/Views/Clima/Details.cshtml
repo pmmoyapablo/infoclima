@@ -1,0 +1,66 @@
+﻿@model InfoClimaPageWeb.Models.ClimaModel
+
+@{
+    ViewBag.Title = "Detalles";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <h4>Informacion del CLima</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descripcion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Temperatura)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Temperatura) C°
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Viento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Viento) Km/h
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Humedad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Humedad) %
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ciudad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ciudad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Fecha)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fecha)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Regresar", "Index")
+</p>

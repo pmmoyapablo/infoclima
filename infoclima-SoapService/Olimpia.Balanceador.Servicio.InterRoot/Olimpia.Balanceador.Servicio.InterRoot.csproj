@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F6C27A5E-A9B6-474C-9A92-9375D6513C3A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Olimpia.Balanceador.Servicio.InterRoot</RootNamespace>
+    <AssemblyName>Olimpia.Balanceador.Servicio.InterRoot</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Extensions.Configuration, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.5.0.0\lib\net461\Microsoft.Extensions.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Abstractions.5.0.0\lib\net461\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Primitives.5.0.0\lib\net461\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppConfiguration.cs" />
+    <Compile Include="IMireware.cs" />
+    <Compile Include="Mireware.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings1.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Settings1.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Olimpia.Balanceador.Aplicacion.Interface\Olimpia.Balanceador.Aplicacion.Interface.csproj">
+      <Project>{1df52ffa-5a53-454c-9e0e-e412d9e96d68}</Project>
+      <Name>Olimpia.Balanceador.Aplicacion.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Olimpia.Balanceador.Aplicacion.Main\Olimpia.Balanceador.Aplicacion.Main.csproj">
+      <Project>{4157c347-43a8-4450-96c0-d9536b1a4be2}</Project>
+      <Name>Olimpia.Balanceador.Aplicacion.Main</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Olimpia.Balanceador.Dominio.Core\Olimpia.Balanceador.Dominio.Core.csproj">
+      <Project>{962c6d00-cf59-467b-a54c-a30912dea08f}</Project>
+      <Name>Olimpia.Balanceador.Dominio.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Olimpia.Balanceador.Dominio.Entity\Olimpia.Balanceador.Dominio.Entity.csproj">
+      <Project>{521c3ddf-c443-41af-a624-5d100865893d}</Project>
+      <Name>Olimpia.Balanceador.Dominio.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Olimpia.Balanceador.Dominio.Interface\Olimpia.Balanceador.Dominio.Interface.csproj">
+      <Project>{26fb295f-db8f-49e0-a808-6804bdea8266}</Project>
+      <Name>Olimpia.Balanceador.Dominio.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Olimpia.Balanceador.Infraestructura.Data\Olimpia.Balanceador.Infraestructura.Data.csproj">
+      <Project>{f1edab32-5af5-4756-a7ad-d8c17e79cc38}</Project>
+      <Name>Olimpia.Balanceador.Infraestructura.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Olimpia.Balanceador.Infraestructura.Interface\Olimpia.Balanceador.Infraestructura.Interface.csproj">
+      <Project>{360605cd-6211-426f-8307-f0b24c6a8911}</Project>
+      <Name>Olimpia.Balanceador.Infraestructura.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Olimpia.Balanceador.Infraestructura.Repository\Olimpia.Balanceador.Infraestructura.Repository.csproj">
+      <Project>{f9985543-534b-4e9a-a33f-6feacd9b6c60}</Project>
+      <Name>Olimpia.Balanceador.Infraestructura.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Olimpia.Balanceador.Transversal.Common\Olimpia.Balanceador.Transversal.Common.csproj">
+      <Project>{64a84e20-26bc-45b8-8799-1fbbe2bbd66f}</Project>
+      <Name>Olimpia.Balanceador.Transversal.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Olimpia.Balanceador.Transversal.Inyeccion\Olimpia.Balanceador.Transversal.Inyeccion.csproj">
+      <Project>{83eac509-3d48-4143-a49b-11d2a88cbad7}</Project>
+      <Name>Olimpia.Balanceador.Transversal.Inyeccion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Olimpia.Balanceador.Transversal.Logging\Olimpia.Balanceador.Transversal.Logging.csproj">
+      <Project>{2de2c840-6bdd-442c-843e-4f4a64e8ab04}</Project>
+      <Name>Olimpia.Balanceador.Transversal.Logging</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

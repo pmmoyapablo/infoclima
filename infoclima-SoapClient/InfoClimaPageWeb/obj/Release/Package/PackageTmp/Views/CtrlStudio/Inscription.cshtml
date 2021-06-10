@@ -1,0 +1,65 @@
+﻿@model IEnumerable<FrontUniAmericas.Models.SubjectModel>
+
+@{
+    ViewBag.Title = "Inscripción";
+}
+
+<h2>Inscripción</h2>
+@using (Html.BeginRouteForm("Default", new { action = "Inscription", controller = "CtrlStudio" }, FormMethod.Post))
+{
+    <div class="editor-field">
+        @Html.DropDownList("Opciones", null, "--Semestre--", new { @id = "id" })
+        <input type="submit" value="Buscar" />
+    </div>
+}
+<br />
+@if (Model == null)
+{
+    <p>El semestre selecionado no tiene materias asociadas.</p>
+}
+else
+{
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Descripcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Codigo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UC)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SemestreId)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descripcion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Codigo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UC)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Semestre.descripcion)
+                </td>
+                <td>
+                    @Html.ActionLink("Ver", "Details", new { id = item.Id })
+                </td>
+            </tr>
+        }
+
+    </table>
+
+    <h4>Tus Materias Inscritas</h4>
+    <b>@ViewBag.MateriasIns</b>
+
+}

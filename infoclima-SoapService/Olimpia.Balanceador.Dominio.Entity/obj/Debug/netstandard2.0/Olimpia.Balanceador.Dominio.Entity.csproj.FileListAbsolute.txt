@@ -1,0 +1,25 @@
+C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\Olimpia.Balanceador.Dominio.Entity\bin\Debug\netstandard2.0\Olimpia.Balanceador.Dominio.Entity.deps.json
+C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\Olimpia.Balanceador.Dominio.Entity\bin\Debug\netstandard2.0\Olimpia.Balanceador.Dominio.Entity.dll
+C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\Olimpia.Balanceador.Dominio.Entity\bin\Debug\netstandard2.0\Olimpia.Balanceador.Dominio.Entity.pdb
+C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\Olimpia.Balanceador.Dominio.Entity\obj\Debug\netstandard2.0\Olimpia.Balanceador.Dominio.Entity.AssemblyInfoInputs.cache
+C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\Olimpia.Balanceador.Dominio.Entity\obj\Debug\netstandard2.0\Olimpia.Balanceador.Dominio.Entity.AssemblyInfo.cs
+C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\Olimpia.Balanceador.Dominio.Entity\obj\Debug\netstandard2.0\Olimpia.Balanceador.Dominio.Entity.csproj.CoreCompileInputs.cache
+C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\Olimpia.Balanceador.Dominio.Entity\obj\Debug\netstandard2.0\Olimpia.Balanceador.Dominio.Entity.dll
+C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\Olimpia.Balanceador.Dominio.Entity\obj\Debug\netstandard2.0\Olimpia.Balanceador.Dominio.Entity.pdb
+C:\Users\pmoya\source\repos\infoclima\Olimpia.Balanceador.Dominio.Entity\bin\Debug\netstandard2.0\Olimpia.Balanceador.Dominio.Entity.deps.json
+C:\Users\pmoya\source\repos\infoclima\Olimpia.Balanceador.Dominio.Entity\bin\Debug\netstandard2.0\Olimpia.Balanceador.Dominio.Entity.dll
+C:\Users\pmoya\source\repos\infoclima\Olimpia.Balanceador.Dominio.Entity\bin\Debug\netstandard2.0\Olimpia.Balanceador.Dominio.Entity.pdb
+C:\Users\pmoya\source\repos\infoclima\Olimpia.Balanceador.Dominio.Entity\obj\Debug\netstandard2.0\Olimpia.Balanceador.Dominio.Entity.AssemblyInfoInputs.cache
+C:\Users\pmoya\source\repos\infoclima\Olimpia.Balanceador.Dominio.Entity\obj\Debug\netstandard2.0\Olimpia.Balanceador.Dominio.Entity.AssemblyInfo.cs
+C:\Users\pmoya\source\repos\infoclima\Olimpia.Balanceador.Dominio.Entity\obj\Debug\netstandard2.0\Olimpia.Balanceador.Dominio.Entity.csproj.CoreCompileInputs.cache
+C:\Users\pmoya\source\repos\infoclima\Olimpia.Balanceador.Dominio.Entity\obj\Debug\netstandard2.0\Olimpia.Balanceador.Dominio.Entity.dll
+C:\Users\pmoya\source\repos\infoclima\Olimpia.Balanceador.Dominio.Entity\obj\Debug\netstandard2.0\Olimpia.Balanceador.Dominio.Entity.pdb
+C:\Users\pmoya\source\repos\infoclima-SoapService\Olimpia.Balanceador.Dominio.Entity\bin\Debug\netstandard2.0\Olimpia.Balanceador.Dominio.Entity.deps.json
+C:\Users\pmoya\source\repos\infoclima-SoapService\Olimpia.Balanceador.Dominio.Entity\bin\Debug\netstandard2.0\Olimpia.Balanceador.Dominio.Entity.dll
+C:\Users\pmoya\source\repos\infoclima-SoapService\Olimpia.Balanceador.Dominio.Entity\bin\Debug\netstandard2.0\Olimpia.Balanceador.Dominio.Entity.pdb
+C:\Users\pmoya\source\repos\infoclima-SoapService\Olimpia.Balanceador.Dominio.Entity\obj\Debug\netstandard2.0\Olimpia.Balanceador.Dominio.Entity.AssemblyInfoInputs.cache
+C:\Users\pmoya\source\repos\infoclima-SoapService\Olimpia.Balanceador.Dominio.Entity\obj\Debug\netstandard2.0\Olimpia.Balanceador.Dominio.Entity.AssemblyInfo.cs
+C:\Users\pmoya\source\repos\infoclima-SoapService\Olimpia.Balanceador.Dominio.Entity\obj\Debug\netstandard2.0\Olimpia.Balanceador.Dominio.Entity.csproj.CoreCompileInputs.cache
+C:\Users\pmoya\source\repos\infoclima-SoapService\Olimpia.Balanceador.Dominio.Entity\obj\Debug\netstandard2.0\Olimpia.Balanceador.Dominio.Entity.dll
+C:\Users\pmoya\source\repos\infoclima-SoapService\Olimpia.Balanceador.Dominio.Entity\obj\Debug\netstandard2.0\Olimpia.Balanceador.Dominio.Entity.pdb
+C:\Users\pmoya\source\repos\infoclima-SoapService\Olimpia.Balanceador.Dominio.Entity\obj\Debug\netstandard2.0\Olimpia.Balanceador.Dominio.Entity.csprojAssemblyReference.cache

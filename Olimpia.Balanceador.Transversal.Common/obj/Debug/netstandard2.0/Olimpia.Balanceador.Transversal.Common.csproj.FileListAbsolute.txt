@@ -1,8 +1,0 @@
-C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\Olimpia.Balanceador.Transversal.Common\bin\Debug\netstandard2.0\Olimpia.Balanceador.Transversal.Common.deps.json
-C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\Olimpia.Balanceador.Transversal.Common\bin\Debug\netstandard2.0\Olimpia.Balanceador.Transversal.Common.dll
-C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\Olimpia.Balanceador.Transversal.Common\bin\Debug\netstandard2.0\Olimpia.Balanceador.Transversal.Common.pdb
-C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\Olimpia.Balanceador.Transversal.Common\obj\Debug\netstandard2.0\Olimpia.Balanceador.Transversal.Common.AssemblyInfoInputs.cache
-C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\Olimpia.Balanceador.Transversal.Common\obj\Debug\netstandard2.0\Olimpia.Balanceador.Transversal.Common.AssemblyInfo.cs
-C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\Olimpia.Balanceador.Transversal.Common\obj\Debug\netstandard2.0\Olimpia.Balanceador.Transversal.Common.csproj.CoreCompileInputs.cache
-C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\Olimpia.Balanceador.Transversal.Common\obj\Debug\netstandard2.0\Olimpia.Balanceador.Transversal.Common.dll
-C:\Users\pmoya\Documents\Visual Studio 2017\Projects\WindowsLiderEntrega\Olimpia.Balanceador.Transversal.Common\obj\Debug\netstandard2.0\Olimpia.Balanceador.Transversal.Common.pdb

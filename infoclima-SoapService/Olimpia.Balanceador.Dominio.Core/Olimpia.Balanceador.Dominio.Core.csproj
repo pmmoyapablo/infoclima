@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Olimpia.Balanceador.Dominio.Interface\Olimpia.Balanceador.Dominio.Interface.csproj" />
+    <ProjectReference Include="..\Olimpia.Balanceador.Infraestructura.Interface\Olimpia.Balanceador.Infraestructura.Interface.csproj" />
+    <ProjectReference Include="..\Olimpia.Balanceador.Infraestructura.Repository\Olimpia.Balanceador.Infraestructura.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

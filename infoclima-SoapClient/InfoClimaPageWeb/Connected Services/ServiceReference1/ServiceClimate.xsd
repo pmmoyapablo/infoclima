@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WcfService1" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WcfService1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="Usuario">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserID" type="xs:int" />
+      <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Usuario" nillable="true" type="tns:Usuario" />
+  <xs:complexType name="Clima">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="City" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ClimaID" type="xs:int" />
+      <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Humidity" type="xs:int" />
+      <xs:element minOccurs="0" name="Temperature" type="xs:int" />
+      <xs:element minOccurs="0" name="Wind" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Clima" nillable="true" type="tns:Clima" />
+  <xs:complexType name="Repuesta">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="IsSuccess" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Messange" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Repuesta" nillable="true" type="tns:Repuesta" />
+  <xs:complexType name="ArrayOfClima">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Clima" nillable="true" type="tns:Clima" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfClima" nillable="true" type="tns:ArrayOfClima" />
+</xs:schema>

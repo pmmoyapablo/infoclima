@@ -1,0 +1,58 @@
+﻿@model FrontUniAmericas.Models.SubjectModel
+
+@{
+    ViewBag.Title = "Confirmar Inscripción";
+    int count = ViewBag.CountMaterias;
+}
+
+<h2>Confirmar Inscripción</h2>
+
+<div>
+    <h4>¿Confirma la Inscripción de esta Materia?</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descripcion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Codigo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Codigo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UC)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UC)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SemestreId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Semestre.descripcion)
+        </dd>
+
+    </dl>
+</div>
+
+@if (count < 3)
+{
+<p>
+    @Html.ActionLink("Agregar", "AddSubjet", new { id = Model.Id })
+</p>
+}
+else
+{
+    <h3>Haz alcanzado el limite permitido de materias.</h3>
+}

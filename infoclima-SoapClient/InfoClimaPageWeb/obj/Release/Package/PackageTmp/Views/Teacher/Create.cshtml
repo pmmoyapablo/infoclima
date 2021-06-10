@@ -1,0 +1,84 @@
+﻿@model FrontUniAmericas.Models.TeacherModel
+@{
+    ViewBag.Title = "Registrar Profesor";
+}
+
+<h2>Registrar Profesor</h2>
+<p>
+    Use el formulario siguiente para registrar un profesor.
+</p>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    @Html.ValidationSummary(true, "No se creó la cuenta. Corrija los errores e inténtelo de nuevo.", new { @class = "text-danger" })
+    <div>
+        <fiedset>
+
+            <div class="editor-label">
+                @Html.LabelFor(m => m.Nombre)
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(m => m.Nombre)
+                @Html.ValidationMessageFor(m => m.Nombre, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="editor-label">
+                @Html.LabelFor(m => m.Apellido)
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(m => m.Apellido)
+                @Html.ValidationMessageFor(m => m.Apellido, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="editor-label">
+                @Html.LabelFor(m => m.Ci)
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(m => m.Ci)
+                @Html.ValidationMessageFor(m => m.Ci, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="editor-label">
+                @Html.LabelFor(m => m.Correo)
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(m => m.Correo)
+                @Html.ValidationMessageFor(m => m.Correo, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="editor-label">
+                @Html.LabelFor(m => m.Telefono)
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(m => m.Telefono)
+                @Html.ValidationMessageFor(m => m.Telefono, "", new { @class = "text-danger" })              
+            </div>
+
+            <div class="editor-label">
+                @Html.LabelFor(model => model.Semestre.descripcion)
+            </div>
+            <div class="editor-field">
+                    @Html.DropDownListFor(model => model.SemestreId, (IEnumerable<SelectListItem>)ViewBag.Opciones)
+                    @Html.ValidationMessageFor(model => model.SemestreId)
+
+                <p>
+
+                </p>
+
+                <p>
+                    <input type="submit" value="Registrar" />
+                <p></p>
+                </p>
+            </div>
+        </fiedset>
+    </div>
+}
+
+
